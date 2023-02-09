@@ -37,7 +37,7 @@ public class Bullet {
         this.posicion = posicion;
     }
     private void init(){
-        this.color = TextColor.ANSI.GREEN;
+        this.color = TextColor.ANSI.BLACK;
         this.backgroundcolor = TextColor.ANSI.YELLOW;
         this.bulletsymbol = TextCharacter.fromCharacter(Symbols.ARROW_UP)[0].withForegroundColor(this.color).withBackgroundColor(this.backgroundcolor);
     }
